@@ -23,11 +23,3 @@ Transcripts:
 Visualizations:
 These are the actual visualizations produced by the data analysis expert during the visualization dialogue. The file name corresponds to the actual visualization identifier that the subject was shown on the screen. The annotations in the anvil files also use the same identifiers, e.g., the referring expression annotations identify the referent visualization targets by their identifiers.
 
-
-
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/74793151/171286610-ade60a47-a720-497f-8291-739eb72d1654.png)
