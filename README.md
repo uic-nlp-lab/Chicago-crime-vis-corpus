@@ -1,8 +1,9 @@
 # Chicago-crime-vis-corpus
 The Chicago-crime-vis corpus is a multimodal corpus containing data from the study of interactions of 16 subjects with a visualization expert. The participants explored visualizations on a large screen related to Chicago crime data to determine the deployment of police officers based on crimes in different areas of the city, time of the day, season, etc. For the interaction they used speech and hand gesture and the Visualization Expert was a human generating visualization from a different room. The corpus has 3179 transcribed utterances covering 1,879 word types and a vocabulary of 38,105 word tokens. 
 
+
 This repository contains three folders -
-###Annotations: 
+#### Annotations: 
 This folder has annotated data in anvil files for the 16 subjects (subject5 through subject20). Annotation is done for dialogue acts, contextualized actionable requests, gestures and referring expressions. Out of the 3179 utterances 449 were identified as Actionable Requests and annotated with one the 8 possible types of Dialogue Acts. 
 The Dialogue Acts are:
 1.	CREATE-VISUALIZATION
@@ -19,10 +20,10 @@ For referring expression annotation, a total of 294 references were labeled in t
 For slot annotation, 680 slot fillers were tagged with slots from our knowledge ontology.
 The augmented_data folder contains the Chicago-crime-vis corpus with 160 subjects based on paraphrasing techniques to increase the original corpus size by a factor of 10 i.e., 16 subjects enlarged to 160 subjects leading to an increase to 15K utterances. 
 
-###Transcripts:
+#### Transcripts:
 16 videos of approximately 1 hour in length each were transcribed into 16 text files capturing the visualization dialogue with each subject. 
 
-###Visualizations:
+#### Visualizations:
 These are the actual visualizations produced by the data analysis expert during the visualization dialogue. The file name corresponds to the actual visualization identifier that the subject was shown on the screen. The annotations in the anvil files also use the same identifiers, e.g., the referring expression annotations identify the referent visualization targets by their identifiers.
 
 
