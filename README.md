@@ -27,3 +27,17 @@ These are the actual visualizations produced by the data analysis expert during 
 
 
 
+## Citation
+```bibtex
+@inproceedings{kumar2020augmenting,
+  title={Augmenting small data to classify contextualized dialogue acts for exploratory visualization},
+  author={Kumar, Abhinav and Di Eugenio, Barbara and Aurisano, Jillian and Johnson, Andrew},
+  booktitle={Proceedings of the 12th Language Resources and Evaluation Conference},
+  pages={590--599},
+  year={2020}
+}
+```
+## Acknowledgment
+
+This work was supported, initially, by NSF award IIS 1445751; and currently, by NSF award CNS 1625941, and by a UIC University Scholar award to Barbara Di Eugenio.
+
