@@ -1,6 +1,13 @@
 # Chicago-crime-vis-corpus
 The Chicago-crime-vis corpus is a multimodal corpus containing data from the study of interactions of 16 subjects with a visualization expert. The participants explored visualizations on a large screen related to Chicago crime data to determine the deployment of police officers based on crimes in different areas of the city, time of the day, season, etc. For the interaction they used speech and hand gesture and the Visualization Expert was a human generating visualization from a different room. The corpus has 3179 transcribed utterances covering 1,879 word types and a vocabulary of 38,105 word tokens. 
 
+The corpus has been referenced in the following publications:
+
+1. A. Kumar, J. Aurisano, B. Di Eugenio, and A. Johnson. (2020). [Intelligent Assistant for Exploring Data Visualizations.](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS20/paper/view/18496) In Proceedings of the 33rd International FLAIRS Conference, Miami, FL, May 17-20.
+2. A. Kumar, B. Di Eugenio, J. Aurisano, and A. Johnson. (2020). [Augmenting Small Data to Classify Contextualized Dialogue Acts for Exploratory Visualization.](https://aclanthology.org/2020.lrec-1.74/) In Proceedings of the 12th Language Resources and Evaluation Conference (LREC). Marseille, France, May 11-16.
+3. A. Kumar, B. Di Eugenio, J. Aurisano,  A. Johnson, A. Alsaiari, N. Flowers, A. Gonzalez and J. Leigh. [Multimodal Coreference Resolution for Exploratory Data Visualization Dialogue: Context-Based Annotation and Gesture Identification.](http://semdial.org/anthology/people/a/abhinav-kumar/)SemDial 2017, The 21st Workshop on the Semantics and Pragmatics of Dialogue, August 15-17,  Saarbrücken, Germany.
+
+## Dataset
 
 This repository contains three folders -
 #### Annotations: 
@@ -18,7 +25,8 @@ The Dialogue Acts are:
 For gesture annotation, out of 536 identified gestures, 380 were annotated as pointing gestures. Out of these pointing gestures 159 pointed to visualizations on the screen and the rest were pointing to entities within the visualizations. 
 For referring expression annotation, a total of 294 references were labeled in the corpus (176 text references and 118 gesture references). 
 For slot annotation, 680 slot fillers were tagged with slots from our knowledge ontology.
-The augmented_data folder contains the Chicago-crime-vis corpus with 160 subjects based on paraphrasing techniques to increase the original corpus size by a factor of 10 i.e., 16 subjects enlarged to 160 subjects leading to an increase to 15K utterances. 
+
+The **augmented_data** folder contains the Chicago-crime-vis corpus with 160 subjects based on paraphrasing techniques to increase the original corpus size by a factor of 10 i.e., 16 subjects enlarged to 160 subjects leading to an increase to 15K utterances. 
 
 #### Transcripts:
 16 videos of approximately 1 hour in length each were transcribed into 16 text files capturing the visualization dialogue with each subject. 
