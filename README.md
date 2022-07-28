@@ -1,5 +1,6 @@
 # Chicago-crime-vis-corpus
 The Chicago-crime-vis corpus is a multimodal corpus containing data from the study of interactions of 16 subjects with a visualization expert. The participants explored visualizations on a large screen related to Chicago crime data to determine the deployment of police officers based on crimes in different areas of the city, time of the day, season, etc. For the interaction they used speech and hand gesture and the Visualization Expert was a human generating visualization from a different room. The corpus has 3179 transcribed utterances covering 1,879 word types and a vocabulary of 38,105 word tokens. 
+
 This repository contains three folders -
 Annotations: 
 This folder has annotated data in anvil files for the 16 subjects (subject5 through subject20). Annotation is done for dialogue acts, contextualized actionable requests, gestures and referring expressions. Out of the 3179 utterances 449 were identified as Actionable Requests and annotated with one the 8 possible types of Dialogue Acts. 
@@ -12,6 +13,7 @@ The Dialogue Acts are:
 6.	MODIFY-VISUALIZATION
 7.	APPEARANCE
 8.	HIGH-LEVEL-QUERY
+
 For gesture annotation, out of 536 identified gestures, 380 were annotated as pointing gestures. Out of these pointing gestures 159 pointed to visualizations on the screen and the rest were pointing to entities within the visualizations. 
 For referring expression annotation, a total of 294 references were labeled in the corpus (176 text references and 118 gesture references). 
 For slot annotation, 680 slot fillers were tagged with slots from our knowledge ontology.
@@ -22,4 +24,6 @@ Transcripts:
 
 Visualizations:
 These are the actual visualizations produced by the data analysis expert during the visualization dialogue. The file name corresponds to the actual visualization identifier that the subject was shown on the screen. The annotations in the anvil files also use the same identifiers, e.g., the referring expression annotations identify the referent visualization targets by their identifiers.
+
+
 
