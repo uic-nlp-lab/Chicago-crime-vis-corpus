@@ -11,7 +11,7 @@ The corpus has been referenced in the following publications:
 
 This repository contains three folders -
 #### Annotations: 
-This folder has annotated data in anvil files for the 16 subjects (subject5 through subject20). Annotation is done for dialogue acts, contextualized actionable requests, gestures and referring expressions. Out of the 3179 utterances 449 were identified as Actionable Requests and annotated with one the 8 possible types of Dialogue Acts. 
+This folder has annotated data in [anvil files](https://www.anvil-software.org/) for the 16 subjects (subject5 through subject20). The data in the anvil files are in xml format. Annotation is done for dialogue acts, contextualized actionable requests, gestures and referring expressions. Out of the 3179 utterances 449 were identified as Actionable Requests and annotated with one the 8 possible types of Dialogue Acts. 
 The Dialogue Acts are:
 1.	CREATE-VISUALIZATION
 2.	CLARIFICATION
@@ -34,7 +34,10 @@ The **augmented_data** folder contains the Chicago-crime-vis corpus with 160 sub
 #### Visualizations:
 These are the actual visualizations produced by the data analysis expert during the visualization dialogue. The file name corresponds to the actual visualization identifier that the subject was shown on the screen. The annotations in the anvil files also use the same identifiers, e.g., the referring expression annotations identify the referent visualization targets by their identifiers.
 
+We regret that we cannot release the videos or the speech channel due to human subject protections.
 
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 ## Citation
 ```bibtex
